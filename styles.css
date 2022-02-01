@@ -4,6 +4,8 @@ body {
     margin: 0;
     font-family: 'Outfit', sans-serif;
     text-align: center;
+
+    
 }
 
 h1 {
@@ -33,5 +35,15 @@ img {
 .text-card {
     width: 85%;
     margin: auto;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        width: 375px;
+    }
+
+    .card {
+        margin: 50px 7%;
+    }
 }
 
